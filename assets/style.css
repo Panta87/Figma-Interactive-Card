@@ -1,0 +1,206 @@
+* {
+    font-family: 'Space Grotesk', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Form styles */
+
+form {
+    width: 381px;
+    margin: 68px auto 43px auto;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+form.hiden {
+    display: none;
+}
+
+form .input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+form .input-wrapper label {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #21092F; 
+    margin-bottom: 8px;
+}
+
+form .input-wrapper input {
+    border: 1px solid #DFDEE0;
+    border-radius: 8px;
+    padding: 11px 16px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #21092F;
+}
+
+form .input-wrapper input::placeholder {
+    color: rgba(33, 9, 47, .25);
+}
+
+form .input-group {
+    display: flex;
+    gap: 20px;
+}
+
+form .input-group .input-wrapper {
+    width: calc(50% - 10px);
+}
+
+form .input-wrapper .expiry-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+form .input-wrapper .expiry-inputs input {
+    width: calc(50% - 5px);
+}
+
+form button {
+    background: #21092F;
+    border-radius: 8px;
+    border: 0;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/* Validation styles */
+
+.error{
+    margin: 0;
+    color: red;
+    font-size: 15px;
+}
+
+
+/* Card styles */
+
+.card-container {
+    max-width: 447px;
+    margin: 0 auto 80px auto;
+}
+
+.card-container .card-front {
+    padding: 27px 32px;
+    background: linear-gradient(163.95deg, #6348FE 4.74%, #610595 88.83%);
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.card-container .card-front .card-logo {
+    width: 47px;
+    height: 47px;
+    border-radius: 100%;
+    background: #FFFFFF;
+    margin-bottom: 64px;
+}
+
+.card-container .card-front #cardNumberDisplay {
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: 3.42222px;
+    margin-bottom: 25px;
+}
+
+.card-container .card-front .bottom-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.card-container .card-back {
+    background: linear-gradient(168.73deg, #FFFFFF 5%, #D2D3D9 91.69%);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 32px;
+}
+
+.card-container .card-back .black-strip {
+    margin: 23px 0 24px 0;
+    background: #2F2F2F;
+    height: 54px;
+}
+
+.card-container .card-back #cvcCodeDisplay {
+    width: 361px;
+    margin: 0 auto;
+    background: #ADB5BE;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px;
+    margin-bottom: 106px;
+}
+
+/* Thank you section styles */
+
+.thank-you {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    width: 381px;
+    margin: 68px auto 43px auto;
+
+}
+  .thank-you img {
+    width: 70px;
+  }
+  .thank-you h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .thank-you p {
+    font-weight: 500;
+    color: hsl(279, 6%, 55%);
+  }
+  #continue {
+    background: #21092F;
+    border-radius: 8px;
+    border: 0;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+  }
+  
+  .hidden {
+    display: none;
+  }
+    
+
+
+
+
+
+
+
+
